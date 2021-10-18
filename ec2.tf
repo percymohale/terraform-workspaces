@@ -4,6 +4,7 @@ resource "aws_instance" "myserver" {
 
   tags = {
     Name = var.instance_name
+    Environtment = terraform.workspace
   }
 }
 
