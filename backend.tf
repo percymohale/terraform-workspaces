@@ -6,10 +6,4 @@ terraform {
     profile = "msp-dev"
   }
 }
-
-terraform {
  
-   workspaces {
-      name = "terraform-workspaces"
-   }
-  } 
