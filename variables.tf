@@ -7,6 +7,6 @@ variable "instance_name" {
 }
 
 variable "instance_ami" {
-    type = string
-  
+  type = string
+
 }
