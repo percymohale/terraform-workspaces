@@ -6,3 +6,5 @@ resource "aws_instance" "myserver" {
     Name = var.instance_name
   }
 }
+
+// test 
