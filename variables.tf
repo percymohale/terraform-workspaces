@@ -10,3 +10,8 @@ variable "instance_ami" {
   type = string
 
 }
+
+variable "region" {
+  type = string
+
+}
